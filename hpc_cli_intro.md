@@ -12,11 +12,3 @@ ssh <username>@<hostname_or_ip_address>
 
 Once you execute the SSH command, the system will prompt you to enter your password for the remote account. Enter your password and press Enter. Note that no characters will appear on the screen as you type.
 
-2. Convert Windows line endings to Unix format to ensure scripts run correctly on HPC systems.
-```
-dos2unix scriptname.sh
-```
-3. Validate the integrity of downloaded files by checking their MD5 checksums against a reference.
-```
-md5sum -c <reference_checksum_file>
-```
